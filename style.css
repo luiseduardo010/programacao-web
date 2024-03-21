@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+    cursor: pointer;
+}
+
+.centro{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.barra_pesquisa{
+    width: 421px;
+    height: 42px;
+    margin-right: 40px;
+    border: transparent;
+    font-size: 17px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    margin-top: 57px;
+    z-index: 3;
+    margin-right: 104px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.barra_invisivel{
+    background-color: white;
+    width: 571px;
+    height: 46px;
+    background-image: url(../img/microfone.svg), url(../img/camera.svg), url(../img/lupa.svg);
+    background-size: 29px 27px;
+    background-repeat: no-repeat;
+    background-position: 92%, 99% , 2%;
+    position: absolute;
+    margin-left: 84px;
+    margin-top: 10px;
+    z-index: -1;
+    border: transparent;
+    border-radius: 50px;
+    pointer-events: none;
+    user-select: none;
+    border: 2px solid #dadce0ff;
+    border-radius: 50px;
+}
+
+.imagens{
+    text-decoration: none;
+}
